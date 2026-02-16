@@ -166,3 +166,15 @@ button {
   font-weight: bold;
   font-size: 18px;
 }
+/* footer section */
+.footer {
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 25px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font:
+    18px Roboto,
+    sans-serif;
+}
