@@ -1,8 +1,8 @@
+/* Header Section */
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
 }
-
 ul {
   display: flex;
   margin: 0;
@@ -18,42 +18,36 @@ a {
   text-decoration: none;
   color: #f9faf8;
 }
-
 .header {
   background: #1f2937;
   color: #f9faf8;
   padding: 25px 200px 48px;
 }
-
 .header-container {
   display: flex;
   justify-content: space-between;
   margin: 25px 80px 80px;
 }
-
 .left-logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
 }
-
+/* hero section */
 .hero-title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
   margin: 0px;
 }
-
 .hero {
   display: flex;
   justify-content: space-between;
   margin: 25px 80px 80px;
 }
-
 .hero-main {
   width: 450px;
 }
-
 .hero-subtext {
   font:
     18px Roboto,
@@ -70,7 +64,6 @@ button {
   margin-top: 15px;
   font-size: 18px;
 }
-
 .hero-image {
   background: gray;
   width: 600px;
@@ -91,8 +84,8 @@ button {
 /* information section */
 .information {
   padding: 25px 200px 48px;
+  margin-bottom: 30px;
 }
-
 .info-title {
   display: flex;
   justify-content: center;
@@ -101,10 +94,10 @@ button {
   font-weight: 900;
   margin: 50px 0px 50px;
 }
-
 .information-container {
   display: flex;
   justify-content: space-evenly;
+  padding: 0px 80px;
 }
 .subtext {
   display: flex;
@@ -115,9 +108,29 @@ button {
     sans-serif;
   text-align: center;
 }
-
-img {
+.subtext img {
   border-radius: 13px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   box-shadow: 0 4px 8px rgba(122, 177, 255, 0.3);
+}
+/* article section */
+.quote {
+  background: #e5e7eb;
+  padding: 100px 28%;
+}
+.quote-content {
+  font: 36px Roboto;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.quote-author {
+  text-align: right;
+  font:
+    24px Roboto,
+    sans-serif;
+  color: #1f2937;
+  font-weight: bold;
+  margin: 0px;
 }
